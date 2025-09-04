@@ -1,18 +1,15 @@
    const baseLinks = {
-  up1: "https://pay.app-agil.online/PyE2Zy8MKb23qRb", // IOF
-  up2: "https://pay.agil-app.online/rn4RgQvoeDW3wBV", // Validação Bancaria
-  up3: "https://pay.agilbank.site/5pjw3RnOLQ032lQ", // Seguro Prestamista "tarifa de cadastro"
-  up4: "https://pay.app-agil.shop/YL9jZDWVLKl3p4q", // NFe
-  up5: "https://pay.app-agil.fun/QqyLgqolO7JZvkE", // Ativar conta
-  up6: "https://pay.app-agil.shop/4KovG1Q8YnQGyDE", // Taxa de registro do contrato
-  up7: "https://pay.app-agil.shop/4KovG1Q8YnQGyDE", // ParabÃ©ns, 20k adicional
-  up8: "https://google.com", // Erro no pagamento - 14,06
-  up9: "https://google.com", // APP - 11,99
-  up10: "https://google.com", // Taxa de Abertura TAC - 16,92
-  up11: "https://google.com", // Taxa de Consultoria Financeira - 19,53
-  up12: "https://google.com", // Taxa de Processamento Administrativo - 31,92
-};
-
+  up2: "https://pay.agilbank.fun/JqoR32b6V2y3Vj5", // Validação Bancaria
+  up3: "https://pay.agilbank.fun/nWrxGWA9X0o3654", // Seguro Prestamista "tarifa de cadastro"
+  up4: "https://pay.agilbank.fun/lDW0ZaJWLE6GN7E", // NFe
+  up5: "https://pay.agilbank.fun/KV603ko1YkL3w8y", // Ativar conta
+  up6: "https://pay.agilbank.fun/QqyLgqob5XJZvkE", // Taxa de registro do contrato
+  up7: "https://pay.agilbank.fun/a6pVgd2qoXoZk7B", // ParabÃ©ns, 20k adicional
+  up8: "https://pay.agilbank.fun/PVYB34e6JDLZKzk", // Erro no pagamento - 14,06
+  up9: "https://pay.agilbank.fun/YL9jZDWqajn3p4q", // APP - 11,99
+  up10: "https://pay.agilbank.fun/nOzxZooNnX1ZJ07", // Taxa de Abertura TAC - 16,92
+  up11: "https://pay.agilbank.fun/v7R0gloO7X5GVr9", // Taxa de Consultoria Financeira - 19,53
+  };
 function redirect(key) {
   try {
     if (!baseLinks[key]) {

