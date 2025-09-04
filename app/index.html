@@ -124,3 +124,12 @@
     <script>document.addEventListener('DOMContentLoaded',function(){const splashScreen=document.getElementById('splash-screen');const mainContent=document.querySelector('.main-content');setTimeout(function(){splashScreen.classList.add('fade-out');setTimeout(function(){splashScreen.style.display='none';mainContent.style.display='block';},300);},2000);const cpfUsuario=localStorage.getItem('cpfUsuario');if(cpfUsuario){const cpfInput=document.getElementById('cpf');if(cpfInput){const cpfFormatado=cpfUsuario.replace(/^(\d{3})(\d{3})(\d{3})(\d{2})$/,"$1.$2.$3-$4");cpfInput.value=cpfFormatado;}}});</script>
 </body>
 </html> 
+
+<script>
+  window.pixelId = "68b956fab492f535c7f223d4";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
